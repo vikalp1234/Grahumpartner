@@ -1,0 +1,54 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="paddin12">25dp</dimen>
+    <dimen name="paddin10">20.8dp</dimen>
+    <dimen name="dots_height">31.2dp</dimen>
+    <dimen name="button_height">34.3dp</dimen>
+    <dimen name="paddin1">2.1dp</dimen>
+    <dimen name="paddin2">5.2dp</dimen>
+    <dimen name="paddin3">6.2dp</dimen>
+    <dimen name="img_width_height">124.8dp</dimen>
+    <dimen name="slide_title">31.2dp</dimen>
+    <dimen name="paddin4">7.3dp</dimen>
+    <dimen name="dots_margin_bottom">20.8dp</dimen>
+    <dimen name="paddin5">10.4dp</dimen>
+    <dimen name="desc_padding">41.6dp</dimen>
+    <dimen name="paddin6">12.5dp</dimen>
+    <dimen name="paddin7">14.6dp</dimen>
+    <dimen name="activity_vertical_margin">16.6dp</dimen>
+    <dimen name="paddin9">18.7dp</dimen>
+    <dimen name="card_size">197.6dp</dimen>
+    <dimen name="slide_desc">16.6dp</dimen>
+    <dimen name="activity_horizontal_margin">16.6dp</dimen>
+    <dimen name="design_bottom_navigation_active_text_size">12.5sp</dimen>
+    <dimen name="textSize10">8.3sp</dimen>
+    <dimen name="textSizeLarge">16.6sp</dimen>
+    <dimen name="textSizeSmall">12.5sp</dimen>
+    <dimen name="textSize8">12.5sp</dimen>
+    <dimen name="textSize9">10.4sp</dimen>
+    <dimen name="textSize6">16.6sp</dimen>
+    <dimen name="textSize7">14.6sp</dimen>
+    <dimen name="textSizeXLarge">20.8sp</dimen>
+    <dimen name="design_bottom_navigation_text_size">10.4sp</dimen>
+    <dimen name="textSize1">27sp</dimen>
+    <dimen name="textSize4">17.7sp</dimen>
+    <dimen name="textSizeNormal">14.6sp</dimen>
+    <dimen name="textSize5">18.7sp</dimen>
+    <dimen name="textSize3">22.9sp</dimen>
+    <dimen name="home_card_view_height">101.9dp</dimen>
+    <dimen name="todays_summary_size">15.6dp</dimen>
+    <dimen name="balance_size">11.8dp</dimen>
+    <dimen name="star_layout_width">36.4dp</dimen>
+    <dimen name="imageSize_cards">33.3dp</dimen>
+    <dimen name="textSize_cards">12sp</dimen>
+
+    <dimen name="contact_inviteHeight">52dp</dimen>
+    <dimen name="padding_invite_text">4dp</dimen>
+
+    <dimen name="button_height_view_parchi">23dp</dimen>
+</resources>

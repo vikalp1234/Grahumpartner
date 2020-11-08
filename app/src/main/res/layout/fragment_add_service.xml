@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.addservice.AddService">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/_15sdp"
+        tools:ignore="MissingConstraints">
+
+
+        <RelativeLayout
+            android:id="@+id/addservice_relative"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_150sdp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/greyshape">
+
+            <ImageView
+                android:id="@+id/addservice_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                />
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_14sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="Gender"/>
+        <RadioGroup
+            android:id="@+id/genderrediogroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/_10sdp">
+
+            <RadioButton
+                android:id="@+id/radioButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Male"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:buttonTint="@color/colorPrimary"
+                android:text="Female"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/radioButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:buttonTint="@color/colorPrimary"
+                android:text="Other"
+                android:textSize="18sp" />
+
+        </RadioGroup>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textSize="@dimen/_14sdp"
+            android:text="@string/addservice"/>
+
+        <Spinner
+            android:id="@+id/docs_categories"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
+
+
+        <Spinner
+            android:id="@+id/docs_subcategories"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_marginTop="@dimen/_10sdp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:hint="Service fees"
+                android:inputType="numberDecimal"
+                android:id="@+id/servicefee_addservice"
+                android:layout_marginLeft="@dimen/_5sdp"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:hint="Add Time"
+                android:id="@+id/service_gettime"
+                android:layout_marginLeft="@dimen/_5sdp"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/addservicenextbtn"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:paddingBottom="@dimen/_3sdp"
+            android:paddingTop="@dimen/_3sdp"
+            android:layout_gravity="center_horizontal"
+            android:paddingLeft="@dimen/_16sdp"
+            android:paddingRight="@dimen/_16sdp"
+            android:textSize="@dimen/_12sdp"
+            android:background="@drawable/loginbtn_shape"
+            android:layout_marginTop="@dimen/_50sdp"
+            android:layout_marginBottom="@dimen/_30sdp"
+            android:text="@string/addservice"
+            android:onClick="onClick"
+            />
+        <!--   <Button
+               android:id="@+id/addservicenextbtn"
+               android:layout_width="@dimen/_120sdp"
+               android:layout_height="wrap_content"
+               android:textColor="@color/white"
+               android:textStyle="bold"
+               android:onClick=""
+               android:layout_below="@+id/relativeregi"
+               android:paddingBottom="@dimen/_3sdp"
+               android:paddingTop="@dimen/_3sdp"
+               android:layout_gravity="center_horizontal"
+               android:paddingLeft="@dimen/_16sdp"
+               android:paddingRight="@dimen/_16sdp"
+               android:textSize="@dimen/_12sdp"
+               android:background="@drawable/loginbtn_shape"
+               android:layout_marginTop="@dimen/_50sdp"
+               android:layout_marginBottom="@dimen/_30sdp"
+               android:text="@string/addservice" />-->
+    </LinearLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/menu_home" />
+    </group>
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_service"
+            android:icon="@drawable/ic_technical_support"
+            android:title="@string/menu_service" />
+    </group>
+    <group android:checkableBehavior="single">
+
+    <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_gallery" />
+    </group>
+    <group android:checkableBehavior="single">
+    <item
+            android:id="@+id/nav_addpackage"
+            android:icon="@drawable/ic_packages"
+            android:title="@string/menu_addpackage" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_slideshow" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_ratting"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_ratting" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="@string/menu_share" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_logout" />
+    </group>
+</menu>

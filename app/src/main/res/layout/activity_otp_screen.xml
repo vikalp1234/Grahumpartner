@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OtpScreen">
+       <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_height="@dimen/_120sdp"
+            android:background="@color/background"
+            android:orientation="vertical"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_width="match_parent">
+
+
+            <TextView
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:gravity="center_horizontal"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="@dimen/_20sdp"
+                android:layout_centerHorizontal="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="wrap_content"
+                android:text="@string/partner"
+                android:gravity="center_horizontal"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12sdp"
+                android:layout_centerHorizontal="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:paddingLeft="@dimen/_20sdp"
+            android:orientation="vertical"
+            android:background="@color/white"
+            android:paddingRight="@dimen/_20sdp"
+            android:layout_width="match_parent">
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+
+                <FrameLayout
+                    android:id="@+id/relativeet"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_120sdp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_8sdp"
+                        android:background="@drawable/edittext_shape"
+                        android:orientation="vertical">
+
+                        <EditText
+                            android:id="@+id/loginotp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:padding="@dimen/_10sdp"
+                            android:background="@null"
+                            android:inputType="number"
+                            tools:ignore="Autofill" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="@dimen/_120sdp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/otp"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/black"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@color/white"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                </FrameLayout>
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/otpmsg"
+                android:layout_below="@+id/relativeet"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:id="@+id/otptxt"
+                android:background="@drawable/textshape"
+                android:padding="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:textSize="@dimen/_12sdp"
+                android:layout_centerHorizontal="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/otpbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:layout_below="@+id/otptxt"
+                android:paddingBottom="@dimen/_3sdp"
+                android:paddingTop="@dimen/_3sdp"
+                android:layout_centerHorizontal="true"
+                android:paddingLeft="@dimen/_16sdp"
+                android:paddingRight="@dimen/_16sdp"
+                android:onClick="onClick"
+                android:textSize="@dimen/_12sdp"
+                android:background="@drawable/loginbtn_shape"
+                android:layout_marginTop="@dimen/_50sdp"
+                android:text="@string/login" />
+
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="@string/copyright"
+               android:gravity="center_horizontal"
+               android:textColor="@color/white"
+               android:layout_alignParentBottom="true"
+               android:background="@color/background"
+               android:padding="@dimen/_2sdp"
+               android:layout_marginTop="@dimen/_25sdp"
+               android:textSize="@dimen/_12sdp"
+               android:layout_centerHorizontal="true"
+               />
+       </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

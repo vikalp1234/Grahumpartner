@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/_15sdp"
+    tools:context=".shop.UpiPaymentActivity">
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="@dimen/_10sdp"
+            android:gravity="left"
+            android:paddingTop="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_30sdp"
+            android:layout_alignParentBottom="true"
+            android:paddingBottom="@dimen/_5sdp"
+            android:layout_centerInParent="true"
+            android:text="You can add your existing Virtual Payment Address
+(VPA) (eg., username@bankname)"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:hint="Enter your Virtual Payment Address"
+                android:id="@+id/counternumber_empadd"
+                android:layout_marginLeft="@dimen/_5sdp"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+        <Button
+            android:id="@+id/emailloginbtn"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_below="@+id/otptxt"
+            android:paddingBottom="@dimen/_3sdp"
+            android:paddingTop="@dimen/_3sdp"
+            android:layout_centerHorizontal="true"
+            android:paddingLeft="@dimen/_16sdp"
+            android:paddingRight="@dimen/_16sdp"
+            android:textSize="@dimen/_12sdp"
+            android:background="@drawable/greyshapeovel"
+            android:layout_marginTop="@dimen/_50sdp"
+            android:text="@string/add" />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="@dimen/_10sdp"
+            android:gravity="left"
+            android:paddingTop="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_30sdp"
+            android:layout_alignParentBottom="true"
+            android:paddingBottom="@dimen/_5sdp"
+            android:layout_centerInParent="true"
+            android:text="VPA details will be saved securely for future transactions."/>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

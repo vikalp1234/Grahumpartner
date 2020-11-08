@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "618884423264",
+    "firebase_url": "https://grahum-partner-app.firebaseio.com",
+    "project_id": "grahum-partner-app",
+    "storage_bucket": "grahum-partner-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:618884423264:android:4c27078e47547c11a16d05",
+        "android_client_info": {
+          "package_name": "com.app.graham.partner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "618884423264-c2b5o51phtsj81b1ps9lt7ens6dc9s47.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBgxntxFjRnnzyg0Teu2Gi12qqT5VxVqk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "618884423264-c2b5o51phtsj81b1ps9lt7ens6dc9s47.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

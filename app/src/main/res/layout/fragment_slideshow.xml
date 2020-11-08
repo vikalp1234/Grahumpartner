@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.slideshow.SlideshowFragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+            <LinearLayout
+                android:id="@+id/photolinear"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_150sdp"
+                android:layout_margin="0dp"
+                android:background="@drawable/gradient_rect_bg"
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profile_image"
+                    android:layout_width="@dimen/_80sdp"
+                    android:layout_height="@dimen/_80sdp"
+                    android:layout_marginTop="@dimen/_30sdp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/profilplaceholder"
+                    app:civ_border_color="@color/grey"
+                    app:civ_border_width="2dp" />
+
+
+
+                <TextView
+                    android:id="@+id/profileName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imageViewProfile"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="8dp"
+                    android:gravity="center"
+                    android:text="John Deo"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textSize7" />
+
+                <TextView
+                    android:id="@+id/textViewPhone"
+                    style="@style/TextLabel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textViewName"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="5dp"
+                    android:gravity="center"
+                    android:text="john@saloon.com"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textSize7" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_gravity="center_vertical"
+                        android:layout_height="wrap_content"
+                        >
+                    <TextView
+                        style="@style/viewParent.headerText"
+                        android:text="@string/AccountInfo"
+                        android:layout_marginBottom="20dp"/>
+
+                        <ImageView
+                            android:layout_height="@dimen/_30sdp"
+                            android:layout_width="@dimen/_25sdp"
+                            android:padding="@dimen/_10sdp"
+                            android:id="@+id/editprofileimage"
+                            android:layout_alignParentRight="true"
+                            android:background="@drawable/ic_baseline_create_24"/>
+                    </RelativeLayout>
+                    <RelativeLayout style="@style/profileDetailsLayout">
+                        <ImageView
+                            android:id="@+id/nameImageView"
+                            style="@style/profileDetailsImage" />
+
+                        <TextView
+                            android:id="@+id/nameTextView"
+                            android:text="Id Proof"
+                            android:layout_toRightOf="@id/nameImageView"
+                            style="@style/profileDetailsTextMain" />
+
+                        <TextView
+                            android:id="@+id/idproofprofile"
+                            android:layout_below="@+id/nameTextView"
+                            android:layout_toRightOf="@id/nameImageView"
+                            style="@style/profileDetailsMiniText" />
+
+                    </RelativeLayout>
+
+                    <View style="@style/proifleDetailsView" />
+                    <RelativeLayout style="@style/profileDetailsLayout">
+                        <ImageView
+                            android:id="@+id/mobileImageView"
+                            style="@style/profileDetailsImage" />
+
+                        <TextView
+                            android:text="Reg No."
+                            android:id="@+id/mobileTextView"
+                            android:layout_toRightOf="@id/mobileImageView"
+                            style="@style/profileDetailsTextMain"/>
+
+                        <TextView
+                            android:id="@+id/regnoprofile"
+                            android:layout_below="@+id/mobileTextView"
+                            android:layout_toRightOf="@id/mobileImageView"
+                            style="@style/profileDetailsMiniText" />
+
+                    </RelativeLayout>
+
+                    <View style="@style/proifleDetailsView" />
+                    <RelativeLayout style="@style/profileDetailsLayout">
+                        <ImageView
+                            android:id="@+id/emailImageView"
+                            style="@style/profileDetailsImage" />
+
+                        <TextView
+                            android:text="Email"
+                            android:id="@+id/emailTextView"
+                            android:layout_toRightOf="@id/emailImageView"
+                            style="@style/profileDetailsTextMain" />
+
+                        <TextView
+                            android:id="@+id/emailidprofile"
+                            android:layout_toRightOf="@id/emailImageView"
+                            android:layout_below="@+id/emailTextView"
+                            style="@style/profileDetailsMiniText" />
+
+                    </RelativeLayout>
+                    <View style="@style/proifleDetailsView" />
+                    <RelativeLayout style="@style/profileDetailsLayout">
+                        <ImageView
+                            android:id="@+id/contactImageView"
+                            style="@style/profileDetailsImage" />
+
+                        <TextView
+                            android:text="Contact Number"
+                            android:id="@+id/contactTextView"
+                            android:layout_toRightOf="@id/contactImageView"
+                            style="@style/profileDetailsTextMain" />
+
+                        <TextView
+                            android:id="@+id/contactprofile"
+                            android:layout_toRightOf="@id/contactImageView"
+                            android:layout_below="@+id/contactTextView"
+                            style="@style/profileDetailsMiniText" />
+
+                    </RelativeLayout>
+
+                    <View style="@style/proifleDetailsView" />
+                    <RelativeLayout style="@style/profileDetailsLayout">
+                        <ImageView
+                            android:id="@+id/addressImageView"
+                            style="@style/profileDetailsImage" />
+
+                        <TextView
+                            android:text="Address"
+                            android:id="@+id/AddressTextView"
+                            android:layout_toRightOf="@id/addressImageView"
+                            style="@style/profileDetailsTextMain" />
+
+                        <TextView
+                            android:id="@+id/address_profile"
+                            android:layout_below="@+id/AddressTextView"
+                            android:layout_toRightOf="@id/addressImageView"
+                            style="@style/profileDetailsMiniText" />
+
+                    </RelativeLayout>
+
+                    <View style="@style/proifleDetailsView" />
+                    <RelativeLayout style="@style/profileDetailsLayout">
+                        <ImageView
+                            android:id="@+id/dobImageView"
+                            style="@style/profileDetailsImage" />
+
+                        <TextView
+                            android:text="Website"
+                            android:id="@+id/dobTextView"
+                            android:layout_toRightOf="@id/dobImageView"
+                            style="@style/profileDetailsTextMain" />
+
+                        <TextView
+                            android:id="@+id/website_profile"
+                            android:layout_below="@+id/dobTextView"
+                            android:layout_toRightOf="@id/dobImageView"
+                            style="@style/profileDetailsMiniText" />
+
+                    </RelativeLayout>
+
+                    <View style="@style/proifleDetailsView" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

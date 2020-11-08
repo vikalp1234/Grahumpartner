@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "552881958520",
+    "firebase_url": "https://grahum-a61aa.firebaseio.com",
+    "project_id": "grahum-a61aa",
+    "storage_bucket": "grahum-a61aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:552881958520:android:040b9a7c37fdebd20f878d",
+        "android_client_info": {
+          "package_name": "com.app.graham.partner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "552881958520-mfh56vjo87sppmkbsje2n15gklpns3ir.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.graham.partner",
+            "certificate_hash": "f1e08709ddd1a84e5ce8cfc5634c6112258b3c96"
+          }
+        },
+        {
+          "client_id": "552881958520-un2g2tvap6c4oa8gdm600uhi85n5gk6s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIKVLGEos31_SO0_emnbFVri5IceXcbNA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "552881958520-un2g2tvap6c4oa8gdm600uhi85n5gk6s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

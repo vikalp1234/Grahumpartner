@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="@dimen/_10sdp"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ui.gallery.AddGallery">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_150sdp"
+        android:background="@drawable/greyshape"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_30sdp">
+        <ImageView
+            android:layout_height="match_parent"
+            android:id="@+id/addgallery_image"
+            android:onClick="onClick"
+            android:scaleType="fitXY"
+            android:layout_width="match_parent"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/addgallery_uploadbtn"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onClick"
+        android:layout_below="@+id/otptxt"
+        android:paddingBottom="@dimen/_3sdp"
+        android:paddingTop="@dimen/_3sdp"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="@dimen/_16sdp"
+        android:paddingRight="@dimen/_16sdp"
+        android:textSize="@dimen/_12sdp"
+        android:background="@drawable/loginbtn_shape"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:text="@string/uploadimage" />
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:background="@color/bg_color"
+        android:layout_width="match_parent"
+        android:id="@+id/norecordlayout"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_width="@dimen/_100sdp"
+            android:id="@+id/nodataimg"
+            android:background="@drawable/ic_database_storage"
+            android:layout_height="@dimen/_120sdp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/norecord"
+            android:textSize="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_10sdp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tryagain"
+            android:textStyle="bold"
+            android:padding="@dimen/_10sdp"
+            android:textColor="@color/background"
+            android:textSize="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_20sdp"/>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

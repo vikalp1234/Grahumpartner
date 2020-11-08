@@ -1,0 +1,164 @@
+<resources>
+    <string name="app_name">Grahum</string>
+    <string name="mobileno">Mobile No. </string>
+    <string name="otp">OTP </string>
+    <string name="partner">Partner</string>
+    <string name="login">Login / Register</string>
+    <string name="orregister">Or register with your existing account</string>
+    <string name="otpmsg">An OTP will arrive within 5 min on the
+given number. If not, then click here.</string>
+    <string name="copyright">Copyright @ Grahum 2020</string>
+    <string name="welcomemsg">Hello!! Welcome to the Grahum Partner!</string>
+    <string name="completeprocessmsg">Now, Let’s complete the registration process?</string>
+    <string name="shoplocation">Shop Location</string>
+    <string name="shopaddress">Shop Address</string>
+    <string name="title_activity_email_otp">EmailOtp</string>
+    <string name="prompt_email">Email</string>
+    <string name="pleasewait">Please wait...</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="ownername">Owner Name. </string>
+    <string name="shopname">Shop Name. </string>
+    <string name="registrationid">Registration ID</string>
+    <string name="Ownersemail">Owner’s Email</string>
+    <string name="emailotp">Email Otp</string>
+    <string name="next">Next</string>
+    <string name="add">Add</string>
+    <string name="addcard">Add Card</string>
+    <string name="addpackage">Add Package</string>
+    <string name="uploadimage">Upload Image</string>
+    <string name="submit">Submit</string>
+    <string name="setting">Change Password</string>
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+    <string name="shop">Shop</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="others">Other</string>
+    <string name="name">Name</string>
+    <string name="pinfo">Personal Information </string>
+    <string name="mobilenumber">Mobile Number or UserId</string>
+    <string name="address">Select Date</string>
+    <string name="addresss">Address</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="save">Save</string>
+    <string name="bank">Bank</string>
+    <string name="upload_msg">Uploading File..</string>
+    <string name="dgts__network_error">Network Error!</string>
+    <string name="mail">Mail Id</string>
+    <string name="addservice">Add service</string>
+    <string name="title_activity_home_screen">HomeScreen</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="action_tutorial">Notification</string>
+    <string name="action_deals">Deals &amp; Offers</string>
+    <string name="action_myorders">My Orders</string>
+    <string name="db_name">dreamlook.db</string>
+    <string name="support">Support</string>
+    <string name="useful_links">Useful links</string>
+    <string name="logout">Logout</string>
+    <string name="invite_friend_earn_one">Invite Friends</string>
+    <string name="help_support">My Address</string>
+    <string name="feedback">Feedback About App</string>
+    <string name="please_wait">please wait...</string>
+    <string name="image_upload">Image uploaded Successful</string>
+    <string name="message_share_buddy">
+    Graham provides your home parlour at your door step. Click here.. </string>
+
+    <string name="share_app">Share with</string>
+    <string name="message_share_buddy1">
+            and use my Referral code
+    </string>
+
+    <string name="kyc_pending">Kyc Pending</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_service">Add Service</string>
+    <string name="menu_slideshow">Setting</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_addpackage">Add Package</string>
+    <string name="menu_ratting">Ratting</string>
+    <string name="menu_logout">Logout</string>
+    <string name="menu_share">Share</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_profile">Profile</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_edit_profile">EditProfile</string>
+    <string name="selected_item">Selected item:</string>
+    <string-array name="days">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+
+    <string name="addcustomer">Add Customer</string>
+    <string name="aboutus">About us</string>
+    <string name="rateus">Rate us on the Play Store</string>
+    <string name="privacypolicy">Privacy Policy</string>
+    <string name="addshop">Add a Shop</string>
+    <string name="addshops">Add Shop</string>
+    <string name="runningsalonchain">In case you’re running a salon chain</string>
+    <string name="ConnectedAccounts">Connected Accounts</string>
+    <string name="FacebookGooglepermission">Facebook, Google permission</string>
+    <string name="AccountSettings">Account Settings</string>
+    <string name="Changeyouremaildeleteyouraccount">Change your email, delete your account</string>
+    <string name="PrivacySettings">Privacy Settings</string>
+    <string name="hideyourshopsfromgooglesearchengines">Hide your shops from google search engines</string>
+    <string name="NotificationSettings">Notification Settings</string>
+    <string name="Definealertsandnotificationyouwanttoreceive">Define alerts and notification you want to receive</string>
+    <string name="OverallRating">Your Overall Rating: </string>
+    <string name="TopReview">Top Review</string>
+    <string name="rupee_symbol">\u20B9</string>
+    <string name="offer">Offers</string>
+
+    <string name="reviewdata">Lorem ipsum dolor sit amet, illum
+putant partiendo per in. Perfecto
+constituam vituperatoribus ut qui.
+Dicat denique suavitate cu duo, inani
+luptatum ad nam. Quo no ignota
+recusabo …. More ></string>
+    <string name="pincode">Pin Code</string>
+    <string name="shopopentime">Open Time</string>
+    <string name="shopclosetime">Close Time</string>
+    <string name="unisex">Unisex</string>
+    <string name="servicename">Add Service</string>
+    <string name="AccountInfo">Account  Info</string>
+    <string name="nointernet">No Internet</string>
+    <string name="noternetmsg">"Please check your internet connection and try again !  "</string>
+    <string name="close">Close</string>
+
+    <string name="skip">SKIP</string>
+    <string name="start">SUBMIT</string>
+    <string name="slide_1_title">Here is Slider 1 Title</string>
+    <string name="slide_1_desc">Here is slider 1 description</string>
+    <string name="slide_2_title">Here is Slider 2 Title</string>
+    <string name="slide_2_desc">Here is slider 2 description</string>
+    <string name="slide_3_desc">Here is slider 3 description</string>
+    <string name="slide_3_title">Here is Slider 3 Title</string>
+    <string name="slide_4_title">Here is Slider 4 Title</string>
+    <string name="slide_4_desc">Here is slider 4 description</string>
+    <string name="norecord">No record found !!</string>
+    <string name="tryagain">Try Again</string>
+
+</resources>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kyc.Kycactivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:id="@+id/backView"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/_5sdp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_baseline_keyboard_arrow_right_24"/>
+
+
+        <TextView
+            android:id="@+id/headerText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textSize6"
+            android:text="KYC Pending"
+            android:fontFamily="@font/robotoregular"
+            android:layout_centerInParent="true"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/errorLinear"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/bugView"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/_10sdp"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:src="@drawable/kyc_doc" />
+        <TextView
+            android:id="@+id/bugText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:text="@string/kyc_pending"
+            android:fontFamily="@font/robotoregular"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:padding="@dimen/_10sdp"
+            android:textStyle="normal"
+            android:textColor="@color/jet"
+            android:textSize="@dimen/textSize6" />
+
+        <TextView
+            android:id="@+id/retryText"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_margin="@dimen/_20sdp"
+            android:singleLine="true"
+            android:text="Ok"
+            android:background="@drawable/loginbtn_shape"
+            android:fontFamily="@font/robotoregular"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textStyle="normal"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textSize6" />
+
+        <TextView
+            android:id="@+id/changeNumberText"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:singleLine="true"
+            android:text="Change Number"
+            android:background="@drawable/loginbtn_shape"
+            android:fontFamily="@font/robotoregular"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textStyle="normal"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textSize6" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/bottomRelative"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+
+        <TextView
+            android:id="@+id/abcText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Support @"
+            android:layout_centerVertical="true"
+            android:padding="@dimen/_3sdp"
+            android:fontFamily="@font/robotoregular"
+            android:textColor="@android:color/black"
+            android:textStyle="normal"
+            android:textSize="@dimen/textSize6" />
+
+        <TextView
+            android:id="@+id/mailidTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+91 98879 90088"
+            android:padding="@dimen/_3sdp"
+            android:fontFamily="@font/robotoregular"
+            android:layout_toRightOf="@id/abcText"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="normal"
+            android:singleLine="true"
+            android:autoSizeMaxTextSize="@dimen/textSize6"
+            android:autoSizeMinTextSize="8sp"
+            android:textSize="@dimen/textSize7" />
+
+    </LinearLayout>
+</RelativeLayout>

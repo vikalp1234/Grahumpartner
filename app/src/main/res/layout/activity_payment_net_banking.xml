@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/_10sdp"
+    android:layout_height="match_parent"
+    tools:context=".shop.PaymentNetBanking">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeet"
+        android:background="@drawable/paymenttext_edit"
+        android:layout_marginTop="@dimen/_20sdp">
+
+        <EditText
+            android:id="@+id/loginotp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Search by bank name"
+            android:padding="@dimen/_10sdp"
+            android:background="@null"
+            android:inputType="number"
+            tools:ignore="Autofill" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="@dimen/_15sdp"
+        android:textColor="@color/black"
+        android:paddingTop="@dimen/_10sdp"
+        android:paddingBottom="@dimen/_5sdp"
+        android:layout_centerInParent="true"
+        android:text="Popular Banks"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/hdfcbank"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="@color/black"
+                android:paddingTop="@dimen/_1sdp"
+                android:layout_gravity="center_horizontal"
+                android:text="HDFC"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="@color/black"
+                android:paddingBottom="@dimen/_5sdp"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/bank"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/sbilogo"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="@color/black"
+                android:paddingTop="@dimen/_1sdp"
+                android:layout_gravity="center_horizontal"
+                android:text="SBI"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="@color/black"
+                android:paddingBottom="@dimen/_5sdp"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/bank"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/icicilogo"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="@color/black"
+                android:paddingTop="@dimen/_1sdp"
+                android:layout_gravity="center_horizontal"
+                android:text="ICICI"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="@color/black"
+                android:paddingBottom="@dimen/_5sdp"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/bank"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/axislogo"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="@color/black"
+                android:paddingTop="@dimen/_1sdp"
+                android:layout_gravity="center_horizontal"
+                android:text="HDFC"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="@color/black"
+                android:paddingBottom="@dimen/_5sdp"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/bank"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="@dimen/_15sdp"
+        android:textColor="@color/black"
+        android:paddingTop="@dimen/_10sdp"
+        android:paddingBottom="@dimen/_5sdp"
+        android:layout_centerInParent="true"
+        android:text="All Banks"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="@dimen/_13sdp"
+        android:paddingTop="@dimen/_10sdp"
+        android:paddingBottom="@dimen/_5sdp"
+        android:layout_centerInParent="true"
+        android:text="Airtel Payment Bank"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="@dimen/_13sdp"
+        android:paddingTop="@dimen/_10sdp"
+        android:paddingBottom="@dimen/_5sdp"
+        android:layout_centerInParent="true"
+        android:text="Bank of Bahrein and Kuwait"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="@dimen/_13sdp"
+        android:paddingTop="@dimen/_10sdp"
+        android:paddingBottom="@dimen/_5sdp"
+        android:layout_centerInParent="true"
+        android:text="Bank of Baroda"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="@dimen/_13sdp"
+        android:paddingTop="@dimen/_10sdp"
+        android:paddingBottom="@dimen/_5sdp"
+        android:layout_centerInParent="true"
+        android:text="Bank of India"/>
+
+
+</LinearLayout>

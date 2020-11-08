@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/_280sdp"
+    android:padding="@dimen/_8sdp"
+    android:layout_gravity="center_horizontal"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:textSize="18sp"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/_8sdp"
+        android:textStyle="bold"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/addshop_servicetitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <EditText
+            android:id="@+id/addshop_servicetitleet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:clickable="false"
+            android:enabled="false"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:hint="@string/shopname" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/addshop_servicetitle_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <EditText
+            android:id="@+id/addshop_servicetitle_nameet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:hint="@string/servicename" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_marginTop="@dimen/_10sdp"
+    android:layout_marginEnd="@dimen/_5sdp"
+    android:layout_gravity="right"
+    android:gravity="right">
+    <TextView
+        android:id="@+id/canceltext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:padding="@dimen/_8sdp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        tools:layout_editor_absoluteX="309dp"
+        tools:layout_editor_absoluteY="217dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/savetext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_marginLeft="@dimen/_8sdp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:padding="@dimen/_8sdp"
+        tools:ignore="MissingConstraints" />
+
+
+</LinearLayout>
+</LinearLayout>
